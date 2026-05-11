@@ -72,7 +72,7 @@ const Navbar = () => {
 
   return (
     <CardNav
-      logo="/logo.svg"
+      logo="/udthedeveloper/logo.svg"
       logoAlt="udthedeveloper"
       items={items}
       baseColor="rgba(255, 255, 255, 0.4)"
