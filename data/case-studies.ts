@@ -16,7 +16,7 @@ export const caseStudies: CaseStudy[] = [
     title: "Trackly",
     tagline: "AI Decision Engine for production AI systems",
     url: "https://www.tracklyai.in",
-    thumbnail: "/udthedeveloper/case-studies/trackly.png",
+    thumbnail: "/services/case-studies/trackly.png",
     tags: ["AI/ML", "SaaS", "Full-Stack", "DevTools"],
     problem:
       "Teams building AI products had no visibility into how their LLM-powered systems performed in production. Debugging agent failures, understanding cost breakdowns across providers like OpenAI, Anthropic, and Gemini, and comparing model efficiency required manual, ad-hoc processes. There was no unified platform to surface actionable insights from AI execution traces.",
@@ -35,7 +35,7 @@ export const caseStudies: CaseStudy[] = [
     title: "Agastya Heart Clinic",
     tagline: "Digital platform for a Senior Interventional Cardiologist",
     url: "https://www.agastyaheartclinic.com",
-    thumbnail: "/udthedeveloper/case-studies/clinic.png",
+    thumbnail: "/services/case-studies/clinic.png",
     tags: ["Healthcare", "Web Development", "SEO", "CMS"],
     problem:
       "Dr. Arvind Singh, a Senior Interventional & Structural Cardiologist at Apollo CVHF Heart Institute, Ahmedabad, with 11+ years of expertise and 10,000+ procedures, had no professional digital presence. Patients had to rely on word-of-mouth to find him. There was no system for online appointment booking, sharing medical articles, or showcasing patient testimonials — all critical for a modern healthcare practice.",
@@ -54,7 +54,7 @@ export const caseStudies: CaseStudy[] = [
     title: "Pink for Purpose",
     tagline: "Cancer awareness and community support platform",
     url: "https://saiyette-website-dev.vercel.app",
-    thumbnail: "/udthedeveloper/case-studies/pink.png",
+    thumbnail: "/services/case-studies/pink.png",
     tags: ["Non-Profit", "Web Development", "Community", "Awareness"],
     problem:
       "Pink for Purpose, a breast cancer awareness initiative operating across the UK, UAE, and India, needed a platform to expand their reach beyond in-person events. They had no centralized hub to share awareness content, manage their donor network, showcase partnerships, or display their impact metrics. Their work — including hair donation campaigns, free screening drives, and corporate partnerships — lacked a digital home.",
@@ -72,7 +72,7 @@ export const caseStudies: CaseStudy[] = [
     slug: "gmail-automation",
     title: "Personalised Gmail Automation",
     tagline: "AI-powered email automation for personalized outreach",
-    thumbnail: "/udthedeveloper/case-studies/gmail.webp",
+    thumbnail: "/services/case-studies/gmail.webp",
     tags: ["AI/ML", "Automation", "API Integration", "Productivity"],
     problem:
       "Sending personalised emails at scale was a tedious, manual process. Whether for sales outreach, client follow-ups, or marketing campaigns, users had to individually craft each email, manage recipient lists, and track responses — all while trying to maintain a personal touch. Existing tools either lacked customization or required complex setup with no intelligence behind the content generation.",

@@ -3,6 +3,7 @@ import React, { useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 // use your own icon import if react-icons is not available
 import { GoArrowUpRight } from "react-icons/go";
+import { LinkedinLogo } from "@phosphor-icons/react";
 import "./CardNav.css";
 
 type CardNavLink = {
@@ -185,13 +186,15 @@ const CardNav: React.FC<CardNavProps> = ({
             <img src={logo} alt={logoAlt} className="logo" />
           </div>
 
-          <a
-            href="mailto:udaykumardhokia@gmail.com"
-            className="card-nav-cta-button"
-            style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
-          >
-            Let&apos;s build
-          </a>
+          <div className="card-nav-actions">
+            <a
+              href="mailto:udaykumardhokia@gmail.com"
+              className="card-nav-cta-button"
+              style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
+            >
+              Let&apos;s build
+            </a>
+          </div>
         </div>
 
         <div className="card-nav-content" aria-hidden={!isExpanded}>

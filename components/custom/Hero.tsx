@@ -6,9 +6,9 @@ import RotatingText from "../RotatingText";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-end-safe items-center h-[75vh] w-full">
+    <div className="flex flex-col justify-center items-center h-[80vh] min-h-[600px] w-full pt-20 md:pt-0">
       <div className="flex flex-col gap-6 items-center max-w-5xl px-4">
-        <h1 className="text-5xl md:text-7xl font-heading text-center leading-tight tracking-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-heading text-center leading-tight tracking-tight">
           Helping people to{" "}
           <span className="inline-flex translate-y-2">
             <RotatingText
@@ -45,13 +45,18 @@ const Hero = () => {
           architecture and exceptional user experience.
         </p>
 
-        <div className="flex items-center gap-4 pt-2">
-          <button type="button" className="button-dark">
+        <div className="flex flex-col sm:flex-row items-center gap-3 md:gap-4 pt-4 w-full sm:w-auto px-4">
+          <a
+            href="mailto:udaykumardhokia@gmail.com"
+            className="button-dark w-full sm:w-auto"
+          >
             Let’s Build Your Product &nbsp;
             <ArrowUpRightIcon />
-          </button>
+          </a>
 
-          <button className="button-light">See My Work</button>
+          <a href="#case-studies" className="button-light w-full sm:w-auto">
+            See My Work
+          </a>
         </div>
       </div>
 

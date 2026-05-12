@@ -1,5 +1,5 @@
 .card-nav-container {
-  position: absolute;
+  position: fixed;
   top: 2em;
   left: 50%;
   transform: translateX(-50%);
@@ -103,6 +103,24 @@
   background-color: #333;
 }
 
+.card-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 100%;
+}
+
+.card-nav-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+.card-nav-social-link:hover {
+  opacity: 0.75;
+}
+
 .card-nav-content {
   position: absolute;
   left: 0;
@@ -175,13 +193,19 @@
   }
 
   .hamburger-menu {
-    order: 2;
+    order: 3;
   }
 
   .logo-container {
     position: static;
     transform: none;
     order: 1;
+    margin-right: auto;
+  }
+
+  .card-nav-actions {
+    order: 2;
+    margin-right: 16px;
   }
 
   .card-nav-cta-button {
