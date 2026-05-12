@@ -10,7 +10,7 @@ const CTA = () => {
         <p className="text-xs font-semibold tracking-[0.15em] uppercase text-[#5227FF]/70">
           Ready to Start?
         </p>
-        <h2 className="text-4xl md:text-5xl font-heading tracking-tight text-foreground leading-tight">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading tracking-tight text-foreground leading-tight">
           Let&apos;s build something{" "}
           <span className="italic">extraordinary</span> together
         </h2>
@@ -18,10 +18,10 @@ const CTA = () => {
           Have an idea, a product to scale, or a workflow to automate? I&apos;d
           love to hear about it. Let&apos;s turn your vision into reality.
         </p>
-        <div className="flex items-center gap-4 pt-4">
+        <div className="flex flex-col sm:flex-row items-center gap-3 md:gap-4 pt-4 w-full sm:w-auto">
           <a
             href="mailto:udaykumardhokia@gmail.com"
-            className="button-dark"
+            className="button-dark w-full sm:w-auto"
           >
             Get in Touch &nbsp;
             <ArrowUpRightIcon />
@@ -30,7 +30,7 @@ const CTA = () => {
             href="https://linkedin.com/in/udthedeveloper"
             target="_blank"
             rel="noopener noreferrer"
-            className="button-light"
+            className="button-light w-full sm:w-auto"
           >
             Connect on LinkedIn
           </a>

@@ -6,7 +6,7 @@ import RotatingText from "../RotatingText";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-[80vh] min-h-[600px] w-full pt-20 md:pt-0">
+    <div className="flex flex-col justify-center items-center min-h-[auto] md:h-[80vh] md:min-h-[600px] w-full pt-28 md:pt-0">
       <div className="flex flex-col gap-6 items-center max-w-5xl px-4">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-heading text-center leading-tight tracking-tight">
           Helping people to{" "}
@@ -60,7 +60,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 mt-12 md:mt-16 w-full max-w-4xl px-4 pb-6">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-16 mt-12 md:mt-16 w-full max-w-4xl px-4 pb-10 md:pb-6">
         <div className="flex flex-col items-center gap-1.5">
           <h3 className="text-4xl md:text-5xl font-heading text-foreground flex items-center">
             <CountUp
